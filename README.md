@@ -27,7 +27,9 @@ The second part of my analysis looked at the relationship between funding goals 
 
 >=COUNTIFS(Kickstarter!$D:$D,">999",Kickstarter!$D:$D,"<5000",Kickstarter!$F:$F,"successful",Kickstarter!$Q:$Q,"theater")
 >
+I calculated the percentage of successful, failed, and canceled projects, and I created the following line chart to display the results.
 
+![line chart](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
