@@ -4,6 +4,8 @@
 
 ### Purpose
 
+The purpose of the project was to examine crowdfuding campaigns for theater projects and identify factors that contribute to their success or failure. To accomplish this, I analyzed data drawn from Kickstarter campaigns using Excel. 
+
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
