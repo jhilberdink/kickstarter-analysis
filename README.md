@@ -23,6 +23,8 @@ I then created a line chart from the pivot table in order visualize the relation
 ![Line chart](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
+
+
 ### Challenges and Difficulties Encountered
 
 ## Results
