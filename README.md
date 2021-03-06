@@ -33,6 +33,8 @@ I calculated the percentage of successful, failed, and canceled projects, and I 
 
 ### Challenges and Difficulties Encountered
 
+I completed my analysis with very little difficulty. The analysis of outcomes based on goals required attention to detail to ensure that the correct pivot table fields are populated. The analysis of outcomes based on goals required a number of =COUNTIFS functions to count the correct number of successful, failed, and canceled campaigns for each funding goal range, and these need to be entered precisely. 
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
