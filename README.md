@@ -12,7 +12,8 @@ The purpose of the project was to examine crowdfuding campaigns for theater proj
 
 To display the outcomes of theater campaigns by their launch dates, I first created a pivot table using the data on the Kickstarter Worksheet. I added the Parent Category and Years fields to Filters, Outcomes to Columns, Date Create Conversion to Rows, and Count of Outcomes Values.
 
-[(Screenshots/screenshot_pivot_table_fields.PNG)]
+[Pivot Table Fields]
+(Screenshots/screenshot_pivot_table_fields.PNG)
 
 
 
