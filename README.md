@@ -16,7 +16,7 @@ To display the outcomes of theater campaigns by their launch dates, I first crea
 
 After creating the pivot table, I filtered Parent Category to show only theater campaigns, I filtered the column labels to exclude live campaigns, and I sorted the column labels in descending order. 
 
-![Screenshot}(screenshots/pivot_table.PNG)
+![Screenshot](screenshots/pivot_table.PNG)
 
 ### Analysis of Outcomes Based on Goals
 
