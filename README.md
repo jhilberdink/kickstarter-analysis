@@ -12,7 +12,7 @@ What factors contribute to the success or failure of theater crowdfunding campai
 
 To display the outcomes of theater campaigns by their launch dates, I first created a pivot table using the data on the Kickstarter Worksheet. I added the Parent Category and Years fields to Filters, Outcomes to Columns, Date Create Conversion to Rows, and Count of Outcomes Values.
 
-![Screenshot](screenshots/screenshot_pivot_table_fields.PNG)
+![pivot fields](https://user-images.githubusercontent.com/79542537/110250284-81fac400-7f48-11eb-855a-c4765d3fb2c8.png)
 
 After creating the pivot table, I filtered Parent Category to show only theater campaigns, I filtered the column labels to exclude live campaigns, and I sorted the column labels in descending order. 
 
@@ -55,4 +55,4 @@ It would also be useful to know which Kickstarter campaigns have creators with p
 
 - What are some other possible tables and/or graphs that we could create?
 
-It might be useful to create a graph of outcomes based on campaign duration to determine if there is an optimal length of time for projects to be live on Kickstarter. Additonally, graphing the average donation size against the funding goal of successful campaigns could help to determine the ideal size of pledge levels. 
+It might be useful to create a graph of outcomes based on campaign duration to determine if there is an optimal length of time for projects to be live on Kickstarter. Additionally, graphing the average donation size against the funding goal of successful campaigns could help to determine the ideal size of pledge levels. 
