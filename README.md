@@ -18,7 +18,7 @@ After creating the pivot table, I filtered Parent Category to show only theater 
 
 ![pivot_table](https://user-images.githubusercontent.com/79542537/110251237-a60cd400-7f4d-11eb-9c39-3d8986d6e20f.PNG)
 
-I then created a line chart from the pivot table in order visualize the relationship between launch dates and campaign outcome.
+Finally, I created the following line chart to visualize the results:
 
 ![Line chart](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
