@@ -23,11 +23,20 @@ Finally, I created the following line chart to visualize the results:
 ![Line chart](resources/Theater_Outcomes_vs_Launch.png)
 ### Analysis of Outcomes Based on Goals
 
-The second part of my analysis looked at the relationship between funding goals and campaign success. On the Outcomes Based on Goals, I grouped campaign funding goals for theater campaigns into dollar-amount ranges. I calculated the number of successful, failed, and canceled campaigns for each dollar-amount range by using the COUNTIFS() function. For example, the following function displays the number of successful theater campaigns with goals between $1000 and $4999.
+The second part of my analysis looked at the relationship between funding goals and campaign success. To do this, I grouped campaign funding goals for theater campaigns into the following dollar-amount ranges:
+
+![Goals](https://user-images.githubusercontent.com/79542537/110251439-6c889880-7f4e-11eb-8a54-670383e4f1c0.jpg)
+
+Next, I used the =COUNTIFS function to get the number of successful, failed, and canceled theater campaigns for each dollar-amount range
+For example, the following function displays the number of successful theater campaigns with goals between $1000 and $4999.
 
 >=COUNTIFS(Kickstarter!$D:$D,">999",Kickstarter!$D:$D,"<5000",Kickstarter!$F:$F,"successful",Kickstarter!$Q:$Q,"theater")
 >
-I calculated the percentage of successful, failed, and canceled projects, and I created the following line chart to display the results.
+After obtaining the counts, I calculated the percentage of sucessful, failed, and canceled projects for each goal, producing the following results:
+
+![goals vs outcomes](https://user-images.githubusercontent.com/79542537/110251841-832fef00-7f50-11eb-81ae-87ae171b11c2.png)
+
+Finally, I created a line chart of the results by selecting the Goal and Percentages columns:
 
 ![line chart](resources/Outcomes_vs_Goals.png)
 
