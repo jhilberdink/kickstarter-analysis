@@ -10,14 +10,13 @@ What factors contribute to the success or failure of theater crowdfunding campai
 
 ### Analysis of Outcomes Based on Launch Date
 
-To display the outcomes of theater campaigns by their launch dates, I first created a pivot table using the data on the Kickstarter Worksheet. I added the Parent Category and Years fields to Filters, Outcomes to Columns, Date Create Conversion to Rows, and Count of Outcomes Values.
+The first factor I looked at was the launch date of theater campaigns. To identify the most favourable time of year to launch a new project, I first created a pivot table to display the number of successful, failed, and canceled campaigns for each month. Here is an image of the fields I selected to create the table:
 
 ![pivot fields](https://user-images.githubusercontent.com/79542537/110250321-b5d5e980-7f48-11eb-823d-cd340a9cd32e.png)
 
+After creating the pivot table, I filtered Parent Category to show only theater campaigns, I filtered the column labels to exclude live campaigns, and I sorted the column labels in descending order, resulting in the following table:
 
-After creating the pivot table, I filtered Parent Category to show only theater campaigns, I filtered the column labels to exclude live campaigns, and I sorted the column labels in descending order. 
-
-![Screenshot](screenshots/pivot_table.PNG)
+![pivot_table](https://user-images.githubusercontent.com/79542537/110251237-a60cd400-7f4d-11eb-9c39-3d8986d6e20f.PNG)
 
 I then created a line chart from the pivot table in order visualize the relationship between launch dates and campaign outcome.
 
@@ -38,15 +37,15 @@ I completed this project without significant difficulties. The analysis of outco
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
 Visual inspection of the Outcomes based on Launch Date chart indicates that the success rate of theater campaigns clearly peaks in May. April and June are also quite favourable launch dates for theater projects. Secondly, the number of successful theater projects sharply declines toward the end of the year, reaching a low point in December.
 
-- What can you conclude about the Outcomes based on Goals?
+### What can you conclude about the Outcomes based on Goals?
 
 Theater campaigns that aim to raise less than $5000 are much more likely to succeed than projects with higher funding goals. Projects with goals of less than $5000 succeed more than 70% of the time. The success rate declines to 55% for projects between $5000 and $9999, and drops further as funding goals increase. There is a spike in the success rate for projects with goals between $35000 and $45000, but there was a only a small number of campaigns with goals that fell in this range.
 
-- What are some limitations of this dataset?
+### What are some limitations of this dataset?
 
 #### Limited Number of Years in Dataset
 Kickstarter is a relatively new platform, and the dataset can only provide information on a short period of time. There were only 26 theater campaigns launched on Kickstarter before 2014; the last month included in the dataset is February 2017. It is possible that trends for theater projects could change as the platform matures.
@@ -57,6 +56,6 @@ The dataset indicates the country in which each campaign took place, but does no
 #### First-Time Creators vs. Kickstarter Veterans
 It would also be useful to know which Kickstarter campaigns have creators with previous experience running projects on the platform. The expected outcomes might be different for a first-time creator compared to that of a Kickstarter veteran. Further research on this question might help to calibrate the expectations for the client. 
 
-- What are some other possible tables and/or graphs that we could create?
+### What are some other possible tables and/or graphs that we could create?
 
 It might be useful to create a graph of outcomes based on campaign duration to determine if there is an optimal length of time for projects to be live on Kickstarter. Additionally, graphing the average donation size against the funding goal of successful campaigns could help to determine the ideal size of pledge levels. 
