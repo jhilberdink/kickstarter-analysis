@@ -40,7 +40,7 @@ I completed this project without significant difficulties. The analysis of outco
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-Visual inspection of the Outcomes based on Launch Date chart indicates that the success rate of theater campaigns clearly peaks in May. April and June are also quite favourable launch dates for theater projects. The number of successful theater projects sharply declines toward the end of the year, reaching a low point in December.
+Visual inspection of the Outcomes based on Launch Date chart indicates that the success rate of theater campaigns clearly peaks in May. April and June are also quite favourable launch dates for theater projects. Secondly, the number of successful theater projects sharply declines toward the end of the year, reaching a low point in December.
 
 - What can you conclude about the Outcomes based on Goals?
 
@@ -48,10 +48,13 @@ Theater campaigns that aim to raise less than $5000 are much more likely to succ
 
 - What are some limitations of this dataset?
 
+#### Limited Number of Years in Dataset
 Kickstarter is a relatively new platform, and the dataset can only provide information on a short period of time. There were only 26 theater campaigns launched on Kickstarter before 2014; the last month included in the dataset is February 2017. It is possible that trends for theater projects could change as the platform matures.
 
+#### Lack of Geographic Information
 The dataset indicates the country in which each campaign took place, but does not provide more detailed location information. This is important information for theater projects. Further data might help to determine if some markets are more favourable than others for crowdfunding plays.
 
+#### First-Time Creators vs. Kickstarter Veterans
 It would also be useful to know which Kickstarter campaigns have creators with previous experience running projects on the platform. The expected outcomes might be different for a first-time creator compared to that of a Kickstarter veteran. Further research on this question might help to calibrate the expectations for the client. 
 
 - What are some other possible tables and/or graphs that we could create?
