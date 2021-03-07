@@ -12,7 +12,8 @@ What factors contribute to the success or failure of theater crowdfunding campai
 
 To display the outcomes of theater campaigns by their launch dates, I first created a pivot table using the data on the Kickstarter Worksheet. I added the Parent Category and Years fields to Filters, Outcomes to Columns, Date Create Conversion to Rows, and Count of Outcomes Values.
 
-![pivot fields](https://user-images.githubusercontent.com/79542537/110250284-81fac400-7f48-11eb-855a-c4765d3fb2c8.png)
+![pivot fields](https://user-images.githubusercontent.com/79542537/110250321-b5d5e980-7f48-11eb-823d-cd340a9cd32e.png)
+
 
 After creating the pivot table, I filtered Parent Category to show only theater campaigns, I filtered the column labels to exclude live campaigns, and I sorted the column labels in descending order. 
 
