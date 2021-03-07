@@ -4,7 +4,7 @@
 
 ### Purpose
 
-What factors contribute to the success or failure of theater crowdfunding campaigns? This project seeks to answer that question using data drawn from Kickstarter. Using Excel, I compare the outcomes of theater projects based on both their launch dates and on their funding goals.
+This project seeks to identify the factors that contribute to the success or failure of crowdfunding campaigns for theater projects. Analyzing data drawn from Kickstarter in Excel, I consider the impact of both launch dates and funding goals on the ultimate outcomes of these campaigns. 
 
 ## Analysis and Challenges
 
