@@ -38,7 +38,7 @@ After obtaining the counts, I calculated the percentage of sucessful, failed, an
 
 Finally, I created a line chart of the results by selecting the Goal and Percentages columns:
 
-[Line Chart](resources/Outcomes_vs_Goals.png)
+![Line Chart](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
