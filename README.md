@@ -25,13 +25,14 @@ Finally, I created the following line chart to visualize the results:
 
 The second part of my analysis looked at the relationship between funding goals and campaign success. To do this, I grouped campaign funding goals for theater campaigns into the following dollar-amount ranges:
 
-![Goals](https://user-images.githubusercontent.com/79542537/110251439-6c889880-7f4e-11eb-8a54-670383e4f1c0.jpg)
+![Goals](https://user-images.githubusercontent.com/79542537/111492627-36e46c00-8713-11eb-9965-d3b06d06e225.png)
 
 Next, I used the =COUNTIFS function to get the number of successful, failed, and canceled theater campaigns for each dollar-amount range
 For example, the following function displays the number of successful theater campaigns with goals between $1000 and $4999.
 
->=COUNTIFS(Kickstarter!$D:$D,">999",Kickstarter!$D:$D,"<5000",Kickstarter!$F:$F,"successful",Kickstarter!$Q:$Q,"theater")
->
+```
+=COUNTIFS(Kickstarter!$D:$D,">999",Kickstarter!$D:$D,"<5000",Kickstarter!$F:$F,"successful",Kickstarter!$R:$R,"plays")
+```
 After obtaining the counts, I calculated the percentage of sucessful, failed, and canceled projects for each goal, producing the following results:
 
 ![Outcomes vs goals table](https://user-images.githubusercontent.com/79542537/111491362-2c75a280-8712-11eb-8f21-c03fb3a6bbc0.png)
