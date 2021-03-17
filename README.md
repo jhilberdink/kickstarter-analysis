@@ -34,7 +34,7 @@ For example, the following function displays the number of successful theater ca
 >
 After obtaining the counts, I calculated the percentage of sucessful, failed, and canceled projects for each goal, producing the following results:
 
-![goals vs outcomes](https://user-images.githubusercontent.com/79542537/110251841-832fef00-7f50-11eb-81ae-87ae171b11c2.png)
+![Outcomes vs goals table](https://user-images.githubusercontent.com/79542537/111491362-2c75a280-8712-11eb-8f21-c03fb3a6bbc0.png)
 
 Finally, I created a line chart of the results by selecting the Goal and Percentages columns:
 
